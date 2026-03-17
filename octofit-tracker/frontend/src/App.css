@@ -1,0 +1,107 @@
+.app-shell {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f7fafc 0%, #eef4f8 100%);
+  color: #1f2937;
+}
+
+.app-nav {
+  background: linear-gradient(90deg, #0b1f3a 0%, #14325c 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.app-nav .navbar-brand,
+.app-nav .nav-link {
+  color: #e5edff;
+}
+
+.app-nav .nav-link:hover,
+.app-nav .nav-link:focus {
+  color: #ffffff;
+}
+
+.app-nav .nav-link.active {
+  color: #ffd166;
+}
+
+.app-logo {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.app-hero {
+  border: 0;
+  border-radius: 0.9rem;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.app-card {
+  border: 0;
+  border-radius: 0.9rem;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.app-shell h1,
+.app-shell h2,
+.app-shell h3,
+.app-shell h4,
+.app-shell h5,
+.app-shell h6 {
+  color: #102a43;
+}
+
+.app-shell a,
+.app-shell .btn-link {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.app-shell a:hover,
+.app-shell .btn-link:hover {
+  color: #0a58ca;
+  text-decoration: underline;
+}
+
+.app-table thead th {
+  background-color: #dbe9ff;
+  color: #16385f;
+  font-weight: 700;
+}
+
+.app-table tbody tr:nth-child(odd) {
+  background-color: #f8fbff;
+}
+
+.app-table tbody tr:hover {
+  background-color: #eaf2ff;
+}
+
+.btn-primary {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #1e40af;
+  border-color: #1e40af;
+}
+
+.btn-outline-primary {
+  color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: #ffffff;
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.app-modal-backdrop {
+  background-color: rgba(15, 23, 42, 0.45);
+}
